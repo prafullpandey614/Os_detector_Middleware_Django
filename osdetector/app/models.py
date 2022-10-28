@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class OperatingSystemStats(models.Model):
+  win = models.IntegerField()
+  mac = models.IntegerField()
+  iph = models.IntegerField()
+  android = models.IntegerField()
+  oth = models.IntegerField()
